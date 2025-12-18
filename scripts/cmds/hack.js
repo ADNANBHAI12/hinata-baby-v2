@@ -15,7 +15,7 @@ const mahmhd = async () => {
 module.exports = {
   config: {
     name: "hack",
-    author: "MahMUD",
+    author: "𝐀𝐃𝐍𝐀𝐍",
     version: "1.7",
     role: 0,
     countDown: 5,
@@ -71,7 +71,7 @@ module.exports = {
       const res = await axios.get(apiUrl, { responseType: "arraybuffer", timeout: 20000 });
       await fs.writeFile(outPath, Buffer.from(res.data));
 
-      const bodyText = `✅ 𝙎𝙪𝙘𝙘𝙚𝙨𝙨𝙛𝙪𝙡𝙡𝙮 𝙃𝙖𝙘𝙠𝙚𝙙 𝙏𝙝𝙞𝙨 𝙐𝙨𝙚𝙧: ${displayName}`;
+      const bodyText = `👻 𝐈𝐃 𝐎𝐢𝐭𝐚  𝐊𝐡𝐚𝐢𝐲𝐚 𝐃𝐢𝐬𝐢 𝐁𝐨𝐬𝐬 დ : ${displayName}`;
       api.sendMessage(
         { body: bodyText, attachment: fs.createReadStream(outPath) },
         event.threadID,
