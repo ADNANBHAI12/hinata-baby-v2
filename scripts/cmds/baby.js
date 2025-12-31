@@ -7,10 +7,10 @@ const mahmud = [
   "bbu",
   "jan",
   "bot",
-  "জান",
-  "জানু",
+  "megh",
+  "Megh",
   "বেবি",
-  "wifey",
+  "মেঘ",
   "hinata",
 ];
 
